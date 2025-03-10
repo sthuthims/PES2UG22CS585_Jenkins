@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES2UG22CS585'
+                    sh './PES2UG22CS585-edit'
                 }
             }
         }
